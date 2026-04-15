@@ -1,0 +1,35 @@
+# 🔹 Environnement virtuel
+venv/
+.env/
+
+# 🔹 Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🔹 Logs
+*.log
+
+# 🔹 Fichiers système
+.DS_Store
+Thumbs.db
+
+# 🔹 Modèles LLM (TRÈS IMPORTANT)
+models/*.gguf
+models/*.bin
+models/*.pt
+
+# 🔹 Jupyter (si jamais)
+.ipynb_checkpoints/
+
+# 🔹 Fichiers temporaires
+*.tmp
+*.temp
+
+# 🔹 IDE / éditeurs
+.vscode/
+.idea/
+
+# 🔹 OS
+*.swp
